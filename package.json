@@ -1,0 +1,19 @@
+{
+  "name": "date-fns-reproduction-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w",
+    "server": "webpack-dev-server --config=webpack.config.js"
+  },
+  "dependencies": {
+    "bs-date-fns": "^1.0.0-alpha.1",
+    "bs-platform": "^7.2.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
